@@ -50,10 +50,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.hidden {
-  display: none;
-}
-
 .close {
   position: absolute;
   top: 15px;
@@ -63,6 +59,11 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.hidden * {
+  display: none;
+}
+
 .nav-btn {
   position: absolute;
   top: 50%;
@@ -81,10 +82,6 @@ body {
 
 .next-btn {
   right: 10px;
-}
-
-.hidden * {
-  display: none;
 }
 
 .nav-btn:disabled {
